@@ -3,7 +3,7 @@
 Contains full source code of Serna Free WYSIWYG XML editor, which 
 uses XSLT and XSL-FO for on-screen rendering. 
 
-** This code is not maintained for quite some time** (only commercial branch is 
+**This code is not maintained for quite some time** (only commercial branch is 
 currently supported by the company which acquired commerical rights). However,
 it shouldn't be difficult to ressurect it for those interested. It requires a 
 number of 3rd-party packages to build (such as qt, hunspell etc), but they are
@@ -51,5 +51,5 @@ with differently licensed open-source software (see GPL_EXCEPTION.txt)
 
 No warranties of any kind, use this at your own risk. 
 
-Please contact Paul Antonov <apg@metta.cc> for questions regarding using 
+Please contact Paul Antonov <apg@metta.cc> for questions regarding use 
 of this software or its parts. 
