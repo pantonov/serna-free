@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="creating-a-new-document-without-a-template" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd:1.1">
+  <title>Creating a New Document without a Template</title>
+  <taskbody id="body">
+    <context>
+      <p id="intro-create-document-without-template">If you want to create an XML document for which you have some combination of  <xref href="dtd.xml">DTD</xref>, <xref href="xml-schema.xml">schema</xref>, or <xref href="xsl-stylesheet.xml">stylesheet</xref> but do not have a <xref href="serna-document-template.xml">document template</xref> , you should provide  these  <xref href="xml-metadata.xml">XML metadata</xref> values manually.</p>
+    </context>
+    <steps>
+      <step conref="creating-new-document.xml#creating-a-new-document/call-new-document-dialog">
+        <cmd/>
+      </step>
+      <step>
+        <cmd>In the <keyword>New Document Dialog</keyword>, click the <uicontrol>Details...</uicontrol> button.</cmd>
+      </step>
+      <step>
+        <cmd>Specify metadata details manually.</cmd>
+        <info>
+          <p>Enter the appropriate <xref href="xml-metadata.xml">XML metadata</xref> values manually:<note>Only the <uicontrol>Stylesheet</uicontrol> field is obligatory.</note></p>
+          <ol>
+            <li>
+              <p><b>DTD PUBID and DTD SYSID</b></p>
+              <p>In the <uicontrol>PUBID</uicontrol>   and <uicontrol>SYSID</uicontrol> fields, specify the paths to your  <xref href="dtd.xml">DTD</xref>.<note>The <uicontrol>PUBID</uicontrol> field is disabled if <uicontrol>SYSID</uicontrol> is empty.</note></p>
+            </li>
+            <li>
+              <p><b>Schema</b></p>
+              <p>In the <uicontrol>Schema</uicontrol>  field, specify the path to your specific <xref href="xml-schema.xml">Schema</xref>. You can use the <uicontrol>Browse</uicontrol> button.</p>
+              <p>You can specify an absolute or a <xref href="using-relative-paths-in-metadata-values.xml">relative path</xref> to your schema.</p>
+            </li>
+            <li>
+              <p><b>Stylesheet</b></p>
+              <p>In the <uicontrol>Stylesheet</uicontrol>  field, specify the path to your specific <xref href="xsl-stylesheet.xml">stylesheet</xref>. You can use the <uicontrol>Browse</uicontrol> button.</p>
+              <p>You can specify an absolute or a <xref href="using-relative-paths-in-metadata-values.xml">relative path</xref> to your stylesheet..</p>
+            </li>
+            <li>
+              <p><b>Encoding</b></p>
+              <p>Select encoding from the   <uicontrol>Encoding</uicontrol>   drop-down list. </p>
+            </li>
+          </ol>
+          <fig>
+            <title>Specifying metadata details in the New Document Dialog.</title>
+            <image href="new-document-dialog-my-plugin-details.png" align="center" placement="break"/>
+          </fig>
+        </info>
+      </step>
+      <step>
+        <cmd>Specify the filename and location for the new document.</cmd>
+        <info>
+          <p>In the <uicontrol>File Name</uicontrol> field, enter the filename. You can use the <uicontrol>Browse</uicontrol> button to specify the file location.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
+        <stepresult>The <keyword>Enter Root Element Dialog</keyword> will appear. <fig conref="specifying-root-element-for-new-document.xml#specifying-the-root-element-for-a-new-document/enter-root-element-dialog-limited-set"/></stepresult>
+      </step>
+      <step>
+        <cmd>Specify the root element.</cmd>
+        <info>
+          <p>In the <keyword>Enter Root Element Dialog</keyword>, do the following:</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>Select the root element from the <uicontrol>Root Element</uicontrol> drop-down list.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
+          </substep>
+        </substeps>
+        <stepresult>A new document with the specified root element will be created.</stepresult>
+      </step>
+    </steps>
+  </taskbody>
+</task>

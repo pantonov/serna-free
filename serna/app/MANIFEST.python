@@ -1,0 +1,5 @@
+
+include:mft/pyplugins/MANIFEST.pyplugin
+include:mft/pyplugins/MANIFEST.publishing
+
+include:${THIRD_DIR}/python/MANIFEST

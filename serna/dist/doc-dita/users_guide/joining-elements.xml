@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="joining-elements" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd:1.1">
+  <title>Joining Elements</title>
+  <taskbody id="body">
+    <context>
+      <p>To join two elements of the same type going in a row, do the following:</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Place the cursor between the two elements.</cmd>
+      </step>
+      <step>
+        <cmd>Join the elements.</cmd>
+        <info>
+          <p>Do one of the following:</p>
+        </info>
+        <choices>
+          <choice>
+            <p>Choose <menucascade>
+                <uicontrol>Element</uicontrol>
+                <uicontrol>Join Elements</uicontrol>
+              </menucascade>.</p>
+          </choice>
+          <choice>
+            <p>Click the <uicontrol>Join Elements</uicontrol> button <image href="join-elements-button.png" align="center" placement="inline"/> on the toolbar.</p>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <example>
+      <title>Example. Joining elements.</title>
+      <p>Suppose we have inserted two <codeph>itemizedlist</codeph>s.</p>
+      <p>Let&apos;s join the two <codeph>itemizedlist</codeph> elements:<ol>
+          <li>
+            <p>Place the cursor between the two <codeph>itemizedlist</codeph>s.</p>
+            <fig frame="all">
+              <title>The cursor is between the two <codeph>itemizedlist</codeph>s.</title>
+              <image href="list-to-join.png" align="center" placement="break"/>
+            </fig>
+          </li>
+          <li>
+            <p>Choose <menucascade>
+                <uicontrol>Element</uicontrol>
+                <uicontrol>Join Elements</uicontrol>
+              </menucascade>.</p>
+            <fig frame="all">
+              <title>The <codeph>itemizedlist</codeph>s have been joined.</title>
+              <image href="joined-list.png" align="center" placement="break"/>
+            </fig>
+          </li>
+        </ol></p>
+    </example>
+  </taskbody>
+</task>

@@ -1,0 +1,121 @@
+data:${inst_prefix}/${serna}/translations:${THIRD_DIR}/qt/translations
+    qt_ar.qm
+    qt_da.qm
+    qt_de.qm
+    qt_es.qm
+    qt_fr.qm
+    qt_iw.qm
+    qt_ja_JP.qm
+    qt_pl.qm
+    qt_pt.qm
+    qt_ru.qm
+    qt_sk.qm
+    qt_sv.qm
+    qt_uk.qm
+    qt_untranslated.qm
+    qt_zh_CN.qm
+    qt_zh_TW.qm
+
+[linux,sunos]
+
+programs:${inst_prefix}/${serna}/${bindir}:${THIRD_DIR}/bin
+    lrelease lrelease.bin
+    assistant assistant.bin
+    linguist linguist.bin
+
+programs:${inst_prefix}/${serna}/${bindir}/imageformats:${THIRD_DIR}/qt/plugins/imageformats
+    libqtiff.so
+    libqgif.so
+    libqjpeg.so
+    libqsvg.so
+
+programs:${inst_prefix}/${serna}/${bindir}:${THIRD_DIR}/lib
+    libQtCore.so.4
+    libQtGui.so.4
+    libQt3Support.so.4
+    libQtAssistantClient.so.4
+    libQtNetwork.so.4
+    libQtXml.so.4
+    libQtSvg.so.4
+    libQtHelp.so.4
+    libQtCLucene.so.4
+    libQtSql.so.4
+    libQtCore.so            -> libQtCore.so.4
+    libQtGui.so             -> libQtGui.so.4
+    libQt3Support.so        -> libQt3Support.so.4
+    libQtAssistantClient.so -> libQtAssistantClient.so.4
+    libQtNetwork.so         -> libQtNetwork.so.4
+    libQtXml.so             -> libQtXml.so.4
+    libQtSvg.so             -> libQtSvg.so.4
+    libQtHelp.so            -> libQtHelp.so.4
+    libQtCLucene.so         -> libQtCLucene.so.4
+    libQtSql.so             -> libQtSql.so.4
+
+[darwin]
+
+programs:${inst_prefix}/${serna}/${bindir}/Assistant.app/Contents/MacOS:${THIRD_DIR}/bin/Assistant.app/Contents/MacOS
+    Assistant
+
+data:${inst_prefix}/${serna}/${bindir}/Assistant.app/Contents:
+    Frameworks -> ../../../Frameworks
+
+data:${inst_prefix}/${serna}/${bindir}/Assistant.app/Contents/MacOS:
+    imageformats -> ../../../imageformats
+
+programs:${inst_prefix}/${serna}/${bindir}/linguist.app/Contents/MacOS:${THIRD_DIR}/bin/linguist.app/Contents/MacOS
+    Linguist
+
+data:${inst_prefix}/${serna}/${bindir}/linguist.app/Contents:
+    Frameworks -> ../../../Frameworks
+
+data:${inst_prefix}/${serna}/${bindir}/linguist.app/Contents/MacOS:
+    imageformats -> ../../../imageformats
+
+data:${inst_prefix}/${serna}/${bindir}/linguist.app/Contents/Resources:${THIRD_DIR}/bin/linguist.app/Contents/Resources
+    linguist.icns
+
+programs:${inst_prefix}/${serna}/${bindir}:${THIRD_DIR}/bin
+    lrelease lrelease.bin
+
+programs:${inst_prefix}/${serna}/${bindir}/imageformats:${THIRD_DIR}/qt/plugins/imageformats
+    libqtiff.dylib
+    libqgif.dylib
+    libqjpeg.dylib
+    libqsvg.dylib
+
+programs:${inst_prefix}/${serna}/Frameworks:${THIRD_DIR}/lib
+    libQtCore.4.dylib
+    libQtGui.4.dylib
+    libQt3Support.4.dylib
+    libQtAssistantClient.4.dylib
+    libQtNetwork.4.dylib
+    libQtXml.4.dylib
+    libQtSvg.4.dylib
+    libQtHelp.4.dylib
+    libQtCLucene.4.dylib
+    libQtSql.4.dylib
+
+[win32]
+
+programs:${inst_prefix}/bin:${THIRD_DIR}/bin
+    assistant.exe assistant_bin.exe
+    linguist.exe linguist_bin.exe
+    lrelease.exe lrelease_bin.exe
+
+programs:${inst_prefix}/${serna}/${bindir}/imageformats:${THIRD_DIR}/qt/plugins/imageformats
+    qtiff4.dll
+    qsvg4.dll
+    qjpeg4.dll
+    qgif4.dll
+
+data:${inst_prefix}/bin:${THIRD_DIR}/lib
+    Qt3Support4.dll
+    QtAssistantClient4.dll
+    QtCore4.dll
+    QtGui4.dll
+    QtNetwork4.dll
+    QtSvg4.dll
+    QtXml4.dll
+    QtHelp4.dll
+    QtCLucene4.dll
+    QtSql4.dll

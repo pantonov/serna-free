@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="untagging-element" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd:1.1">
+  <title>Untagging Element</title>
+  <taskbody id="body">
+    <context>
+      <p>To <?serna-redline-start 0 untug means nothing for user. technically speaking it is noncence
+-----
+See http://www.adobepress.com/articles/article.asp?p=1323248&seqNum=4
+Find "Untagging Elements from the Structure Pane
+Earlier you learned how to untag elements using the Tags panel. The Structure pane can be used to untag elements, too."?>untag<?serna-redline-end?> an element, do the following:</p>
+    </context>
+    <steps>
+      <step>
+        <cmd>Place the cursor on the element.</cmd>
+        <info>
+          <p>Place the cursor inside the element in the Editing Window or click the element in the ContentMap.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Untag the element.</cmd>
+        <info>
+          <p>Do one of the following:</p>
+        </info>
+        <choices>
+          <choice>
+            <p>Press <uicontrol>Ctrl-U</uicontrol>.</p>
+          </choice>
+          <choice>
+            <p>Choose <menucascade>
+                <uicontrol>Element</uicontrol>
+                <uicontrol>Untag Element</uicontrol>
+              </menucascade>.</p>
+          </choice>
+          <choice>
+            <p>Right-click and select <uicontrol>Untag Element</uicontrol> from the context menu.</p>
+          </choice>
+        </choices>
+      </step>
+    </steps>
+    <example>
+      <title>Example. Untagging an element.</title>
+      <p>Let&apos;s untag the <codeph>emphasis</codeph> element:</p>
+      <ol>
+        <li>
+          <p>Put the cursor in the <codeph>emphasis</codeph> element.</p>
+          <fig frame="all">
+            <image href="cursor-in-emphasis.png" align="center" placement="break"/>
+          </fig>
+        </li>
+        <li>
+          <p>Press <uicontrol>Ctrl-U</uicontrol>.</p>
+          <fig frame="all">
+            <image href="untagged.png" align="center" placement="break"/>
+          </fig>
+        </li>
+      </ol>
+    </example>
+  </taskbody>
+</task>

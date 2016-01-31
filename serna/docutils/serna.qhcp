@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QHelpCollectionProject version="1.0">
+  <assistant>
+    <title>Syntext Serna @VERSION@ Help</title>
+    <startPage>qthelp://com.syntext.doc.serna/doc/index.html</startPage>
+    <applicationIcon>assistant.png</applicationIcon>
+    <enableFilterFunctionality>false</enableFilterFunctionality>
+    <enableDocumentationManager>false</enableDocumentationManager>
+    <enableAddressBar visible="true">true</enableAddressBar>
+    <cacheDirectory>com.syntext.doc</cacheDirectory>
+    <aboutMenuText>
+        <text>Syntext Serna Free @VERSION@ Help</text>
+    </aboutMenuText>
+  </assistant>
+  <docFiles>
+    <register>
+      <file>serna.qch</file>
+    </register>
+  </docFiles>
+</QHelpCollectionProject>

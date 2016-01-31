@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="creating-a-new-document-with-the-default-template" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd:1.1">
+  <title>Creating a New Document with the Default Template</title>
+  <taskbody id="body">
+    <context>
+      <p id="intro-create-document-with-default-template">If you wish to create a simple XML document that has no <xref href="dtd.xml">DTD</xref>, no defined <xref href="xml-schema.xml">schema</xref> or special <xref href="xsl-stylesheet.xml">stylesheet</xref>, you should create it with the Default Template.</p>
+    </context>
+    <steps>
+      <step conref="creating-new-document.xml#creating-a-new-document/call-new-document-dialog">
+        <cmd/>
+      </step>
+      <step>
+        <cmd>Select the default document template.</cmd>
+        <info>
+          <p>In the <keyword>New Document Dialog</keyword>, select the <uicontrol>Default Category</uicontrol> and the <uicontrol>Default Template</uicontrol>.</p>
+          <note conref="creating-new-document.xml#creating-a-new-document/details"/>
+        </info>
+      </step>
+      <step>
+        <cmd>Specify the filename and location for the new document.</cmd>
+        <info>
+          <p>In the <uicontrol>File Name</uicontrol> field, enter the filename. You can use the <uicontrol>Browse</uicontrol> button to specify the file location.</p>
+        </info>
+      </step>
+      <step>
+        <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
+        <stepresult>
+          <p>The <keyword>Enter Root Element Dialog</keyword> will appear.</p>
+          <fig conref="specifying-root-element-for-new-document.xml#specifying-the-root-element-for-a-new-document/enter-root-element-dialog-default-template"/>
+        </stepresult>
+      </step>
+      <step>
+        <cmd>Specify the root element.</cmd>
+        <info>
+          <p>In the <keyword>Enter Root Element Dialog</keyword>, do the following:</p>
+        </info>
+        <substeps>
+          <substep>
+            <cmd>Type the root element in the <uicontrol>Root Element</uicontrol> field.</cmd>
+          </substep>
+          <substep>
+            <cmd>Click <uicontrol>OK</uicontrol>.</cmd>
+          </substep>
+        </substeps>
+        <stepresult>A new document with the specified root element will be created.<fig>
+            <title>A new document created with the Default template.</title>
+            <image href="new-document-created-with-default-template.png" align="center" placement="break"/>
+          </fig></stepresult>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links>
+    <link href="document-template-details.xml"/>
+    <link href="default-stylesheet.xml"/>
+    <link href="specifying-root-element-for-new-document.xml"/>
+  </related-links>
+</task>

@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="splitting-element" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd:1.1">
+  <title>Splitting Element</title>
+  <taskbody id="body">
+    <context>
+      <p>You can split an element one of these ways:</p>
+    </context>
+    <steps-unordered>
+      <step>
+        <cmd>Split an element in the Editing Window.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Place the cursor in the element in the Editing Window.</cmd>
+          </substep>
+          <substep>
+            <cmd>Split the element.</cmd>
+            <info>
+              <p>Do one of the following:<ul>
+                  <li>
+                    <p>Press <uicontrol>Enter</uicontrol>.</p>
+                  </li>
+                  <li>
+                    <p>Choose <menucascade>
+                        <uicontrol>Element</uicontrol>
+                        <uicontrol>Split Element</uicontrol>
+                      </menucascade>.</p>
+                  </li>
+                  <li>
+                    <p>Click the <uicontrol>Split Element</uicontrol> button <image href="split-element-button.png" align="center" placement="inline"/> on the toolbar.</p>
+                  </li>
+                </ul></p>
+            </info>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Split the parent of an element in the Editing Window.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Place the cursor in the element in the Editing Window.</cmd>
+          </substep>
+          <substep>
+            <cmd>Press <uicontrol>Enter</uicontrol> twice.</cmd>
+            <info>
+              <p>This is called <i>advanced</i> element split.</p>
+            </info>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Split the parent of the parent (and so on) of an element in the Editing Window.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Place the cursor in the element in the Editing Window.</cmd>
+          </substep>
+          <substep>
+            <cmd>Press <uicontrol>Enter</uicontrol> multiple times in a row.</cmd>
+            <info>
+              <p>This is called <i>advanced</i> element split.</p>
+            </info>
+          </substep>
+        </substeps>
+      </step>
+      <step>
+        <cmd>Split an element in ContentMap.</cmd>
+        <substeps>
+          <substep>
+            <cmd>Click the element in ContentMap.</cmd>
+          </substep>
+          <substep>
+            <cmd>Split the element.</cmd>
+            <info>
+              <p>Do one of the following:<ul>
+                  <li>
+                    <p>Choose <menucascade>
+                        <uicontrol>Element</uicontrol>
+                        <uicontrol>Split Element</uicontrol>
+                      </menucascade>.</p>
+                  </li>
+                  <li>
+                    <p>Click the <uicontrol>Split Element</uicontrol> button <image href="split-element-button.png" align="center" placement="inline"/> on the toolbar.</p>
+                  </li>
+                </ul></p>
+            </info>
+          </substep>
+        </substeps>
+        <info>
+          <note>
+            <p>The <uicontrol>Enter</uicontrol> key won&apos;t work to split elements in ContentMap and consequently the <i>advanced split</i> won&apos;t work.</p>
+          </note>
+        </info>
+      </step>
+    </steps-unordered>
+    <example>
+      <title>Example. Splitting elements.</title>
+      <p>Suppose we have inserted <codeph>itemizedlist</codeph>-&gt;<codeph>listitem</codeph>-&gt;<codeph>para</codeph>.</p>
+      <fig frame="all">
+        <image href="inserted-listitem.png" align="center" placement="break"/>
+      </fig>
+      <ol>
+        <li>
+          <p>Type &quot;<codeph>OrangeLemon</codeph>&quot; in the <codeph>para</codeph>. Place the cursor between the words.</p>
+          <fig frame="all">
+            <image href="cursor-between-words-in-para.png" align="center" placement="break"/>
+          </fig>
+        </li>
+        <li>
+          <p>Press <uicontrol>Enter</uicontrol>.</p>
+          <p>The <codeph>para</codeph> will be split (a new <codeph>para</codeph> will be inserted).</p>
+          <fig frame="all">
+            <image href="split-para.png" align="center" placement="break"/>
+          </fig>
+        </li>
+        <li>
+          <p>Press <uicontrol>Enter</uicontrol> immediately again.</p>
+          <p>This will split the first  <codeph>listitem</codeph>.</p>
+          <fig frame="all">
+            <image href="split-advanced.png" align="center" placement="break"/>
+          </fig>
+        </li>
+      </ol>
+    </example>
+  </taskbody>
+</task>

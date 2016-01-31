@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="collapsing-and-expanding-elements" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd:1.1">
+  <title>Collapsing and Expanding Elements</title>
+  <conbody id="body">
+    <p>Collapsing and expanding some elements helps you author and navigate very large documents effectively.</p>
+    <p>Elements that can be collapsed in a <xref href="document-type.xml">document of a particular type</xref> are listed in a corresponding <xref href="serna-document-template.xml">document template</xref>. If they are not specified, any element can be collapsed. For details,  see the    <keyword>folding-list</keyword> element in <xref href="../developers_guide/document-template-properties.xml#doc-template-properties/folding-and-large-document-support"/>).</p>
+    <note>Serna can <xref href="large-document-support.xml">automatically open large documents with some elements collapsed</xref>.</note>
+  </conbody>
+  <related-links>
+    <link href="large-document-support.xml"/>
+  </related-links>
+</concept>

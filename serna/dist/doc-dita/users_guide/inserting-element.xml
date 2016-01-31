@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="inserting-element" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd:1.1">
+  <title>Inserting Element</title>
+  <taskbody id="body">
+    <context>
+      <p>To insert an element, take the following steps:</p>
+    </context>
+    <steps>
+      <step id="place-cursor">
+        <cmd>Place the cursor in the position for insertion.</cmd>
+        <info>
+          <p>Place the cursor in the Editing Window or in the ContentMap in the position where you want to insert the element.</p>
+          <note>
+            <p>Sometimes the insertion of an element is <xref href="inserting-required-element.xml">
+                <i>required</i>
+              </xref>.</p>
+          </note>
+        </info>
+      </step>
+      <step id="call-dialog">
+        <cmd>Call up the <keyword>Insert Element Dialog</keyword>.</cmd>
+        <info>
+          <p>To call up the <keyword>Insert Element Dialog</keyword> (or move the focus to the docked <keyword>Insert Element Dialog</keyword>), do one of the following:</p>
+        </info>
+        <choices>
+          <choice>
+            <p>Press <uicontrol>Ctrl-Enter</uicontrol>.</p>
+          </choice>
+          <choice>
+            <p>Choose <menucascade>
+                <uicontrol>Element</uicontrol>
+                <uicontrol>Insert Element</uicontrol>
+              </menucascade>.</p>
+          </choice>
+          <choice>
+            <p>Click the <uicontrol>Insert Element</uicontrol> button <image href="insert-element-button.png" align="center" placement="inline"/> on the toolbar.</p>
+          </choice>
+          <choice>
+            <p>Right-click and select <uicontrol>Insert Element</uicontrol> from the context menu.</p>
+          </choice>
+        </choices>
+        <stepresult id="dialog-appears">
+          <p>The <keyword>Insert Element Dialog</keyword> will appear. The  dialog shows an alphabetically sorted list of elements available  for  the current context if <xref href="validation-modes.xml">validation is on</xref>.  The  5 most recently used elements are shown in <b>bold</b> at the top of the list.</p>
+          <fig>
+            <title>Insert Element Dialog.</title>
+            <image href="insert-element-dialog.png" align="center" placement="break"/>
+          </fig>
+          <note id="docking">
+            <p>The <keyword>Insert Element Dialog</keyword> is a  <q>liquid dialog</q>: it can have a different, docked appearance. For  more information about liquid dialogs, see <xref href="docking.xml"/>.</p>
+          </note>
+        </stepresult>
+      </step>
+      <step id="select-element">
+        <cmd>Choose an element to insert.</cmd>
+        <info>
+          <p>In the <keyword>Insert Element Dialog</keyword>, do one of the following:</p>
+        </info>
+        <choices id="selecting-element">
+          <choice id="find-element">
+            <p>Find the element and double-click it.</p>
+            <note>
+              <p>If you know exactly which element you need, you can start typing its name and it will be offered automatically.</p>
+            </note>
+            <note type="tip">
+              <p>To find a proper element for insertion,  move the mouse pointer over elements  and see  a tooltip with short help for each element.</p>
+            </note>
+          </choice>
+          <choice>
+            <p>Select the element and click the <uicontrol>Insert</uicontrol> button or the <uicontrol>Insert Element</uicontrol> button <image href="insert-element-button.png" align="center"/>.</p>
+          </choice>
+          <choice>
+            <p>Select the element and press <uicontrol>Enter</uicontrol>.</p>
+          </choice>
+          <choice>
+            <p>Press <uicontrol>Alt-number</uicontrol>  to pick a corresponding recently used element shown in bold.</p>
+          </choice>
+        </choices>
+        <stepresult>
+          <p>The element will be inserted and the dialog will be closed automatically.<note id="close-on-insert">
+              <p>If you prefer to keep the <keyword>Insert Element Dialog</keyword> on  top while you edit, uncheck the <menucascade>
+                  <uicontrol>Close on insert</uicontrol>
+                </menucascade> checkbox.</p>
+            </note><note>
+              <p>If the element requires some attribute, the <xref href="inserting-elements-with-required-attributes.xml">
+                  <keyword>Required Attributes Dialog</keyword>
+                </xref> will appear.</p>
+            </note></p>
+        </stepresult>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links>
+    <link href="custom-content-customization.xml"/>
+  </related-links>
+</task>

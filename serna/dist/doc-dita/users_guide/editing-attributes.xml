@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="editing-attributes" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd:1.1">
+  <title>Editing Attributes</title>
+  <conbody id="body">
+    <p>You can edit attributes of an element using the <keyword>Element Attributes Dialog</keyword>:<ul>
+        <li>
+          <p>Add a new attribute.</p>
+        </li>
+        <li>
+          <p>Change the value of an attribute.</p>
+        </li>
+        <li>
+          <p>Delete an attribute.</p>
+        </li>
+      </ul></p>
+  </conbody>
+</concept>

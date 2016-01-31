@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="references-in-dita-documents" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd:1.1">
+  <title>References in DITA Documents</title>
+  <conbody>
+    <p id="referencing-intro">Referencing is an effective means of content reuse in DITA. Content reuse is available at different levels (elements, topics, maps) by means of different types of references.</p>
+    <p id="list-of-references">Instead of repeating some information, you can reuse it one of these ways with the help of a reference:<ol>
+        <li>
+          <p><b>Point to a target</b></p>
+          <p>To point to a target, use  these references:<ol>
+              <li>
+                <p><b>
+                    <xref href="xref.xml">Xref</xref>
+                  </b></p>
+                <p conref="xref.xml#xref/xref"/>
+              </li>
+              <li>
+                <p><b>
+                    <xref href="related-link.xml">Related links</xref>
+                  </b></p>
+                <p conref="related-link.xml#related-link/related-links"/>
+              </li>
+            </ol></p>
+        </li>
+        <li>
+          <p><b>Transclude the content of a target</b></p>
+          <p>To transclude the content of  a target, use <b>
+              <xref href="conref.xml">conref</xref>
+            </b>.</p>
+          <p conref="conref.xml#conref/conref"/>
+        </li>
+        <li>
+          <p><b>Include a topic or a map in multiple maps</b></p>
+          <p>To include a topic or a map in a map, use <b>
+              <xref href="topicref.xml">topicref</xref>
+            </b>.</p>
+          <p conref="topicref.xml#topicref/topicref"/>
+        </li>
+      </ol></p>
+    <p id="usability-tools">Serna   <xref href="references-validation-in-dita-documents.xml">validates</xref> references.</p>
+    <note type="important" id="dita-usability-tools">
+      <p>All editions of Serna support DITA. However, DITA usability tools (DITA dialogs available through the DITA menu and the DITA toolbar), which facilitate the insertion of common DITA constructs, and reference navigation are available in Serna Enterprise Edition only. Download a free trial  of Serna Enterprise at <xref href="http://www.syntext.com/downloads/serna/" scope="external" format="html"/>.</p>
+    </note>
+  </conbody>
+</concept>

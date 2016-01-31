@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd" []>
+<task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="opening-an-existing-document" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:task.xsd:1.1">
+  <title>Opening an Existing Document</title>
+  <taskbody id="body">
+    <context>
+      <p>You can open a document in Serna several ways:</p>
+      <ol>
+        <li>
+          <p><xref href="opening-a-document-in-wysiwyg-mode.xml">Opening a document in WYSIWYG mode</xref></p>
+          <p>By default, documents are opened in <xref href="wysiwyg-mode.xml">WYSIWYG mode</xref>.</p>
+          <p>Serna automatically applies a document template on <xref href="opening-a-document-in-wysiwyg-mode.xml">opening a document</xref>, but you can also <xref href="opening-document-with-manually-specified-parameters.xml">open a document with manually specified parameters</xref>.</p>
+          <p>Serna allows  you to  <xref href="large-document-support.xml">work with very large documents by collapsing portions of them</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="opening-a-document-as-plain-text.xml">Opening a document in Text mode</xref></p>
+          <p>You can open a document straight away in <xref href="plain-text-mode.xml">Text mode</xref>.</p>
+          <p conref="plain-text-mode.xml#text-mode/use-cases"/>
+        </li>
+        <li>
+          <p><xref href="opening-recent-document.xml">Opening a document from the Recent Files list</xref></p>
+          <p>The last  several  documents opened in Serna  can be opened from the list of recent files. In this case, some meta information is applied exactly as it was the previous time.</p>
+        </li>
+        <li>
+          <xref href="opening-a-document-from-the-command-line.xml">Opening a document from the command line</xref>
+          <p>You can open a document in Serna by executing a command from the command line.</p>
+        </li>
+      </ol>
+    </context>
+  </taskbody>
+</task>

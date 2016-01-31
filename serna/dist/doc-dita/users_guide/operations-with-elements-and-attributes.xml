@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="operations-with-elements-and-attributes" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd:1.1">
+  <title>Operations with Elements and Attributes</title>
+  <conbody id="body">
+    <p>You can work with elements in the <xref href="editing-window.xml">Editing Window</xref> and in the <xref href="content-map.xml">ContentMap</xref>.</p>
+    <p>See instructions on how to:<ol>
+        <li>
+          <p><xref href="inserting-element.xml">Insert an element</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="wrapping-in-element.xml">Wrap content into an element</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="renaming-element.xml">Rename an element</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="splitting-element.xml">Split an element</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="joining-elements.xml">Join elements</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="untagging-element.xml">Untag an element</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="deleting-element.xml">Delete an element</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="editing-attributes.xml">Change attributes of an element</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="collapsing-and-expanding-elements.xml">Collapse and expand elements</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="using-element-help.xml">Call up help for elements</xref>.</p>
+        </li>
+        <li>
+          <p><xref href="using-attribute-help.xml">Call up help for element attributes</xref>.</p>
+        </li>
+      </ol></p>
+  </conbody>
+</concept>

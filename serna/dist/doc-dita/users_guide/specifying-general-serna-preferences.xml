@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd" []>
+<concept xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="specifying-general-serna-preferences" xsi:noNamespaceSchemaLocation="urn:oasis:names:tc:dita:xsd:concept.xsd:1.1">
+  <title>Specifying General Serna Preferences</title>
+  <conbody>
+    <p>You can specify the following preferences concerning Serna user interface:<ol id="general-preferences">
+        <li>
+          <p><xref href="specifying-system-font.xml"/></p>
+        </li>
+        <li>
+          <p><xref href="specifying-gui-language.xml"/></p>
+        </li>
+        <li>
+          <p><xref href="making-dockable-dialogs-close-on-esc.xml"/></p>
+        </li>
+      </ol></p>
+  </conbody>
+</concept>

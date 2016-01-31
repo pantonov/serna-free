@@ -1,0 +1,30 @@
+#
+# Files which are required for speller plugin
+#
+[all]
+
+include:${THIRD_DIR}/aspell/MANIFEST
+
+data:${inst_prefix}/${serna}/plugins/speller:${top_srcdir}/${apps_serna}/dist/plugins/speller
+    speller.spd
+    speller_data.ent
+    speller_startup.spd
+
+data:${inst_prefix}/${serna}/plugins/speller:${top_srcdir}/${apps_serna}/app
+    ASPELL-COPYING
+    ASPELL-EN-COPYING
+
+[darwin]
+
+programs:${inst_prefix}/${serna}/plugins/speller:${top_builddir}/${apps_serna}/lib/speller
+    libspeller30.dylib
+
+[win32]
+
+programs:${inst_prefix}/${serna}/plugins/speller:${top_builddir}/${apps_serna}/lib/speller
+    speller30.dll
+
+[linux,sunos]
+
+programs:${inst_prefix}/${serna}/plugins/speller:${top_builddir}/${apps_serna}/lib/speller
+    libspeller30.so libspeller30.so.3
